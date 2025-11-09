@@ -5,7 +5,6 @@ from flask import Flask, render_template, request, redirect, url_for
 # The use of __name__ is standard practice
 app = Flask(__name__)
 
-<<<<<<< Updated upstream
 # --- In-Memory Data Storage (Placeholder for Database) ---
 # We will temporarily store successful bookings in this list.
 bookings = []
@@ -70,8 +69,3 @@ if __name__ == '__main__':
     # It should be FALSE in a production/live environment.
     app.run(debug=True)
     
-=======
-@app.route("/")
-def hello_world():
- return "<p>Hello, Anmar!</p>"
->>>>>>> Stashed changes
